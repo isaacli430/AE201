@@ -12,14 +12,6 @@ $("#macBar img").hover( function() {
 	$("#macScreen").fadeIn("slow");
 })
 
-$("#macBar img").click( function() {
-	if (this.id == "four") {
-		open("/Applications/Skype.app")
-	} else if (this.id == "five") {
-		open("/Applications/Discord.app")
-	}
-})
-
 $("#macScreen").click( function() {
 	$(this).fadeOut("slow");
 })
